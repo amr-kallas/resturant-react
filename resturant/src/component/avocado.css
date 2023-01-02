@@ -1,0 +1,54 @@
+.avocado{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.avocado .img{
+    flex-basis: 57%;
+}
+.avocado .img img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.avocado .text{
+    flex-basis: 40%;
+    margin-left: 25px;
+}
+.avocado h4{
+    font-size: 34px;
+    line-height: 1.6;
+    color: #43121d;
+}
+.avocado p{
+    color: #777;
+    line-height: 1.8;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.avocado button{
+    background-color: #a82d49;
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid #a82d49;
+    transition: .5s;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.avocado button:hover{
+    background-color: white;
+    color: #a82d49;
+}
+@media(max-width:997px){
+    .avocado .img{
+        flex-basis: 100%;
+        margin: auto;
+    }
+    .avocado .text{
+        flex-basis: 100%;
+        margin: auto;
+    }
+}

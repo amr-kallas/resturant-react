@@ -1,0 +1,48 @@
+.header{
+    background:url('../../img/headImg.jpg') center;
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+}
+.header .text{
+    text-align: left;
+    padding-top: 175px;
+    margin-left: 50px;
+}
+.header .text h4{
+    font-size: 40px;
+    color: #a82d49;
+}
+.header .text p{
+    margin-top: 15px;
+    color: #777;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.order{
+    background-color: #a82d49;
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid #a82d49;
+    transition: .5s;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.order:hover{
+    background-color: white;
+    color: #a82d49;
+}
+.more{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: 3px solid white;
+    transition: .5s;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+.more:hover{
+    border: 3px solid #a82d49;
+    color: #a82d49;
+}

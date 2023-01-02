@@ -1,0 +1,72 @@
+.test{
+    background-color: #a82d49;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.test h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 50px 0;
+
+}
+.test .boxess{
+    text-align: center;
+    border-radius: 20px;
+    max-width: 900px;
+    position: relative;
+    transition: .6s;
+    margin: auto;
+}
+.test .boxess .box{
+    background: white;
+    border-radius: 20px;
+    max-width: 900px;
+    transition: .6s;
+}
+.two,.three{
+    display: none;
+}
+.test .box img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.test .box p{
+    margin: 0px 200px 20px;
+    line-height: 1.8;
+    color: #555;
+    font-size: 22px;
+}
+@media(max-width:767px){
+    .test .box p{
+        margin: 0 0 20px;
+    }
+    
+}
+.test .box span{
+    display: block;
+    padding-bottom: 40px;
+    color: #a82d49;
+    font-size: 18px;
+    font-weight: bold;
+}
+.test .bullets{
+    text-align: center;
+    margin-top: 50px;
+}
+.test .bullets span{
+    width: 15px;
+    height: 15px;
+    background: white;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 50%;
+    opacity: .3;
+    cursor: pointer;
+}
+.test .bullets span.active{
+    opacity: 1;
+}

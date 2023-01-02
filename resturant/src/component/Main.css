@@ -1,0 +1,27 @@
+.main{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #a82d49;
+    color: white;
+    flex-wrap: wrap;
+}
+.main .text{
+    text-align: center;
+    flex-basis: 25%;
+    padding: 30px;
+}
+.main .text h5{
+    font-size: 30px;
+}
+.main .text span{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 10px;
+}
+@media(max-width:767px){
+    .main .text{
+        flex-basis: 100%;
+    }
+}

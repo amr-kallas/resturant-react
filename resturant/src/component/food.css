@@ -1,0 +1,52 @@
+.food{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 75px 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.food .text{
+    flex-basis: 40%;
+}
+.food .text h4{
+    font-size: 34px;
+    line-height: 1.5;
+    color: #43121d;
+}
+.food .text p{
+    margin: 20px 0;
+    color: #777;
+    line-height: 1.7;
+    font-size: 17px;
+}
+.food .text .other{
+    margin: 20px 0;
+}
+.food .text .other .row{
+    padding-bottom: 15px;
+}
+.food .text .other .row i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #a82d49;
+}
+.food .text .other .row span{
+    color: #777;
+}
+.food .img{
+    flex-basis: 60%;
+}
+.food .img img{
+    max-width: 100%;
+}
+@media(max-width:997px){
+    .food{
+        margin: 100px 0;
+    }
+    .food .text{
+        flex-basis: 100%;
+    }
+    .food .img{
+        flex-basis: 100%;
+    }
+}

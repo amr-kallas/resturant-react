@@ -1,0 +1,63 @@
+.cake{
+    margin-top: 100px;
+    background-image: url("./../img/cake.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.cake .text{
+    width: 70%;
+    margin: auto;
+    
+}
+.cake h1{
+    color: #a82d49;
+    line-height: 1.5;
+
+}
+.cake p{
+    padding-top: 20px;
+    color: #777;
+    line-height: 1.5;
+    margin: 0 50px;
+}
+.cake span{
+    padding-top: 40px;
+    display: block;
+    font-weight: bold;
+    color: #43121d;
+    transition: .5s;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.cake span:hover{
+    color: #a82d49;
+}
+.about{
+    text-align: center;
+    margin-top: 100px;
+}
+.about h3{
+    margin-bottom: 15px;
+    font-size: 32px;
+    color: #43121d;
+
+}
+.about p{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    padding: 0 20%;
+}
+@media(max-width:997px){
+    .cake .text{
+        width: 100%;
+    }
+    .about p{
+        padding: 0 10%;
+    }
+}
